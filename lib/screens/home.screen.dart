@@ -36,7 +36,6 @@ class _MyHomePageState extends State<MyHomePage> {
   void _remapAmplitude(dynamic amplitude) {}
 
   void _updateAmplitude(double amplitude) {
-    // print("Amplitude $amplitude");
     print(amplitude.runtimeType.toString());
     setState(() => _amplitude = num.parse(amplitude.toStringAsFixed(3)));
   }
